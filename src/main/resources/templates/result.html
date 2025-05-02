@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>Результат</title></head>
+<body>
+<h1>Результат конвертации</h1>
+<p>
+    <span th:text="${amount}">0</span>
+    <span th:text="${from}">XXX</span>
+    =
+    <span th:text="${rate}">0</span>
+    <span th:text="${to}">YYY</span>
+</p>
+<a href="/">← Новая конвертация</a>
+</body>
+</html>
